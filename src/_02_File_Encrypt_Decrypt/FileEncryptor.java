@@ -1,5 +1,7 @@
 package _02_File_Encrypt_Decrypt;
 
+import javax.swing.JOptionPane;
+
 public class FileEncryptor {
 	/*
 	 * Encryption is the process of encoding a message or information
@@ -20,4 +22,16 @@ public class FileEncryptor {
 	 * Create a program that takes a message and a key from the user.
 	 * Use the key to shift each letter in the users input and save the final result to a file.
 	 */
+	
+	
+	
+	public static void main(String[] args) {
+		
+		String input = JOptionPane.showInputDialog(null, "enter a key: ");
+		int key = Integer.parseInt(input);
+		
+		String message = JOptionPane.showInputDialog(null, "enter a message: ");
+		
+		
+	}
 }
